@@ -1,6 +1,6 @@
 {
     "name": "@bnk/cors",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "cors.ts",
     "types": "cors.ts",
     "devDependencies": {
@@ -10,5 +10,9 @@
         "test": "bun test",
         "prepublishOnly": "bun test",
         "publish:cors": "bun publish --access public"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brandon-schabel/bnk-cors.git"
+      }
 }
